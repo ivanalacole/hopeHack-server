@@ -1,0 +1,14 @@
+{
+  "name": "hopehacks",
+  "version": "1.0.0",
+  "description": "Hope Hacks project for Road To Hire. Our members are: Sohila, Ivana, Jalynn, and Alaina. This project is due July 5th.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
