@@ -1,5 +1,6 @@
 const jsonServer = require('json-server');
 const axios = require('axios');
+//Axios is a Javascript library used to make HTTP requests from node. js
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
@@ -26,7 +27,7 @@ server.listen(port);
 
         axios({
             method: 'POST',
-            url: "https://artea-server-app.herokuapp.com/users", //replace this link with Ivana's heroku link
+            url: "https://hack-server-app.herokuapp.com/users", //replace this link with Ivana's heroku link
             data: JSON.stringify(information),
             headers: {
                 "Content-Type": "application/json"

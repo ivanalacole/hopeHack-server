@@ -1,8 +1,8 @@
 {
-    "users": [
+    "Doctors": [
       {
-        "id": 1,
-        "first_name": "Justin"
+        "npi": 1,
+        "name": "Justin"
       }
     ]
   }
