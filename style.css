@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+/* GLOBAL */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    background-color: #FFCDB2;
+    margin: 0;
+    padding: 0;
+    color: #6D6875;
+}
+
+
+.header {
+    min-height: 120vh;
+    width: 100%;
+    background-image: url(pexels-ekaterina-bolovtsova-7358427.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+}
+
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+
+nav {
+    display: flex;
+    padding: 2px 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.text-box {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.text-box h1 {
+    font-size: 62px;
+    background-color: transparent;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+
+    background-color: transparent;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: grey;
+    position: relative;
+}
+
+.why {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #FFCDB2;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.row {
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa {
+    color: #f44336;
+    margin: 0 13px;
+    padding: 18px 0;
+}
+
+.header-con {
+    min-height: 120vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-con img {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+}
+
+.header-con h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+    background-image: url("half.webp");
+    background-color: #cccccc;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #ffffff;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+input {
+    width: 100%
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.topnav {
+    background-color: rgb(102, 99, 99);
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+
+}
+
+
+.topnav a.active {
+    background-color: #474646;
+    color: white;
+}
+
+.info {
+    font-size: 50px;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    background-color: #FFCDB2;
+
+}
+
+.mailer {
+    background-color: #FFCDB2;
+}
+
+.br {
+    background-color: #FFCDB2;
+}
+
+.title {
+    color: black;
+}
