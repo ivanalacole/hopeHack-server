@@ -1,4 +1,4 @@
-const para = document.querySelector(".home");
+const para = document.querySelector(".docname");
 
 const getApi = async () => {
 let url = "https://hack-server-app.herokuapp.com/users" //replace with Ivana's link
