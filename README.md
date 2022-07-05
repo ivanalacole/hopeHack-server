@@ -22,7 +22,7 @@ We used Visual Studios Code for as our main workspace to create static files, ad
 Jalynn Williams-Brewster, Ivana Burton-Thompson, Alaina Harris, and Sohila Abdelnabi
 
 # License
-This project is licensed under MIT License - see LICENSE.md for more details.
+This project is licensed under MIT License - see LICENSE for more details.
 
 
 
