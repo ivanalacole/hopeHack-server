@@ -1,5 +1,6 @@
 const jsonServer = require('json-server');
 const axios = require('axios');
+//Axios is a Javascript library used to make HTTP requests from node. js
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
