@@ -34,7 +34,7 @@ server.listen(port);
             }
         })
     })
-    .catch(function(error){
-        console.log(error);
-    })
+    .catch(function (error){
+        console.error(error);
+    });
 }());
