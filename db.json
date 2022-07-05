@@ -1,8 +1,3 @@
 {
-    "Doctors": [
-      {
-        "npi": 1,
-        "name": "Justin"
-      }
-    ]
+    "users": []
   }
