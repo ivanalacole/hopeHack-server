@@ -99,6 +99,7 @@ img{
  }
  .flex-items{
    margin-bottom: 10px;
+   text-align: center;
  }
 
  .flex-items:nth-child(1) {
@@ -226,6 +227,8 @@ img{
    padding: 5px 15px 5px 15px;
    margin: auto;
    text-align: center;
+   margin-bottom: 20px;
+   font-size: 2rem;
 }
 /* INPUT BUBBLES */
 .formbbl{
@@ -233,6 +236,8 @@ img{
    border: solid var(--color-5) 5px;
    border-radius: 15px;
    align-content: center;
+   width: 90%;
+   right: 20px;
 }
 input{
    text-align: center;
