@@ -22,19 +22,19 @@ server.listen(port);
         console.log(information);
         return information;
     })
-    .then((information)=> {
-        console.log(information);
+    // .then((information)=> {
+    //     console.log(information);
 
-        axios({
-            method: 'POST',
-            url: "https://hack-server-app.herokuapp.com/users", //replace this link with Ivana's heroku link
-            data: JSON.stringify(information),
-            headers: {
-                "Content-Type": "application/json"
-            }
-        })
-    })
-    .catch(function(error){
-        console.log(error);
-    })
+    //     axios({
+    //         method: 'POST',
+    //         url: "https://hack-server-app.herokuapp.com/users", //replace this link with Ivana's heroku link
+    //         data: JSON.stringify(information),
+    //         headers: {
+    //             "Content-Type": "application/json"
+    //         }
+    //     })
+    // })
+    // .catch(function(error){
+    //     console.log(error);
+    // })
 }());
