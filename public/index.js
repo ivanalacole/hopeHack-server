@@ -1,4 +1,4 @@
-const para = document.querySelector(".para");
+const para = document.querySelector(".docname");
 
 const getApi = async () => {
 let url = "https://hack-server-app.herokuapp.com/users" //replace with Ivana's link
@@ -11,12 +11,9 @@ let template = "";
 information[0].map(item => {
     template += `
     <div>
-    <h1>
+    <h2>
     ${item.basic.first_name}
-    ${item.basic.last_name}
-    ${item.basic.middle_name}
-    ${item.addresses[0].address_1}
-    </h1>
+    </h2>
     </div>
     
     `
