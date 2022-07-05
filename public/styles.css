@@ -50,7 +50,7 @@ nav {
    position: relative;
 }
 .nav-links ul li a {
-   color: black;
+   color: var(--color-1);
    text-decoration: none;
    font-size: 16px;
 }
@@ -72,21 +72,130 @@ img{
   width: 20%;
   height: 20%;
 }
-/* FIND A DOCTOR */
-.grid-Container {
+/* FIND A DOCTOR PAGE*/
+/* .grid-Container {
    display: grid;
    grid-template-columns: auto auto auto;
    margin: 5%;
    grid-gap: 10px;
    justify-items: center;
-   /* background-color: #F2EFEB; */
    border: solid var(--color-3) 5px;
    border-radius: 25px;
    padding-top: 10px;
  }
  .gridpack-item {
    text-align: center;
+ } */
+
+ .flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: stretch;
+   align-content: normal;
+   margin: auto;
+
  }
+ .flex-items{
+   margin-bottom: 10px;
+ }
+
+ .flex-items:nth-child(1) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(2) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(3) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(4) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(5) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(6) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(7) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(8) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+ }
+ 
+ .flex-items:nth-child(9) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+   width: 30%;
+   /* margin-bottom: 20px; */
+ }
+ 
+
+
+
+
  img {
    height: 200px;
    width: 250px;
