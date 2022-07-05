@@ -26,7 +26,7 @@ server.listen(port);
 
         axios({
             method: 'POST',
-            url: "https://artea-server-app.herokuapp.com/users", //replace this link with Ivana's heroku link
+            url: "https://hack-server-app.herokuapp.com/users", //replace this link with Ivana's heroku link
             data: JSON.stringify(information),
             headers: {
                 "Content-Type": "application/json"
