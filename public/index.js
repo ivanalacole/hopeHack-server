@@ -1,7 +1,7 @@
 const para = document.querySelector(".para");
 
 const getApi = async () => {
-let url = "https://artea-server-app.herokuapp.com/users" //replace with Ivana's link
+let url = "https://hack-server-app.herokuapp.com/users" //replace with Ivana's link
 
 const response = await fetch(url);
 const information = await response.json();
