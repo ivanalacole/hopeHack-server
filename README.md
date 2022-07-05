@@ -24,5 +24,9 @@ Jalynn Williams-Brewster, Ivana Burton-Thompson, Alaina Harris, and Sohila Abdel
 # License
 This project is licensed under MIT License - see LICENSE for more details.
 
+# Google Slides
+Here is a link to the Google slides explaining more about our project. => https://docs.google.com/presentation/d/16mox_g5JoeApuhQJW0JpzFwHg4XiMflvU6REBD1oCY0/edit?usp=sharing
+
+
 
 
